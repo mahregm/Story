@@ -1,0 +1,25 @@
+ When working with git control there are different stages that we need to fulfil before commiting
+ our work in the Github which is remote Repository.
+
+ 1. Working Directory: It is the current folder that we are working on and it is the file where we
+ will start the git by typing "git init".
+
+ 
+ 2. Staging area: This is the area where we want to move the files that we want to keep track of. 
+ If we add a file in the staging area then we will be able to see the changes that has been made previously
+ and we can revert the changes. To add a file in the staging area we write the code "git add filename".
+ 
+ 
+ 3. Local Repository: It is a repository which is hosted on a local machine for an individual user. we add our 
+ files to the local repository by writing a code "git commit filename".
+
+ 4. Remote Repository: It is hoseted on a remote (this could be on the internet or an off-site server;
+ it could even be the same machine in a different path) and is shared among myultiple team members. The 
+ best example of remote repository is Github repository. we add our file to the remote 
+ repository by using "git remote add <name> <url> "
+
+
+ What is the difference between Local Repository and Remote Repository?
+ = A local repository is a copy of the entire project's history and codebase that resides on a developer's machine. 
+ When a developer initializes a local repository, Git sets up the necessary infrastructure on track changes, branches, and commits
+ within the project.
